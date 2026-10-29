@@ -1,0 +1,10 @@
+[project]
+name = "trade-recorder"
+version = "0.1.0"
+description = "Trade Recorder & PnL Service — ingests trades, tracks positions, and reports PnL"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
